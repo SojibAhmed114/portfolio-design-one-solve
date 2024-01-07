@@ -10,6 +10,9 @@
     display: flex;
     justify-content: right;
 }
+.links{
+    text-decoration: none;
+}
 .First-section{
     text-align: right;
     padding: 216px;
