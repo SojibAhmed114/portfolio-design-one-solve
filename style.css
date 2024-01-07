@@ -67,3 +67,21 @@ main{
 }
 
 /* main section two design */
+.sectionTwo-contariner{
+    background-color: aqua;
+}
+
+.two-titel{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.two-skills-contrainer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.skills-discrip{
+    color: #737272;
+    padding-top: 8px;
+}
