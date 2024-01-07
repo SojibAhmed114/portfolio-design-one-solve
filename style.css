@@ -101,22 +101,25 @@ two-skills-contrainer{
 
 }
 
-.contariner-photo{
-    background-image: url('./images/watch.png');
+/* programming hero sir slotion */
+/* .contariner-photo{
+    background: url('./images/gradient1.png'),url('./images/watch.png');
+    height:318px;
+    background-repeat: no-repeat;
     border-radius: 5px;
 }
 
-photo-te{
-    font-size: 40px;
+.header-btn{
+    margin-bottom: 60px;
 }
-.photoone{
-    /* position: absolute; */
-    width: 80%;
-}
-.phototwo{
-    /* position: absolute; */
-    width: 80%;
-}
+.photo-te{
+    margin-top: 64px;
+} */
+programming hero sir slotion
+
+
+
+
 
 
 /* foooter work start */
@@ -160,7 +163,7 @@ footer{
     padding: 24px;
     border-radius: 5px;
     background-color: transparent;
-    border: 1px solid #fff;
+
 }
 .footer-btn{
     color: white ;
