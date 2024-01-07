@@ -46,7 +46,6 @@ main{
     align-items: center;
     gap: 50px;
     justify-content: space-between;
-    /* background-color: rebeccapurple; */
     margin: 136px auto;
 }
 
@@ -73,9 +72,7 @@ main{
 }
 
 /* main section two design */
-/* .sectionTwo-contariner{
-    background-color: aqua;
-} */
+
 .sectionTwo-contariner{
     padding-bottom: 100px;
 }
@@ -101,7 +98,7 @@ two-skills-contrainer{
 
 }
 
-/* programming hero sir slotion */
+/* programming hero sir solution */
 /* .contariner-photo{
     background: url('./images/gradient1.png'),url('./images/watch.png');
     height:318px;
@@ -115,57 +112,75 @@ two-skills-contrainer{
 .photo-te{
     margin-top: 64px;
 } */
-programming hero sir slotion
 
+/* programming hero sir solution end  */
 
+.last-photo{
+    background: url('./images/watch.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    width: 100%;
+    height: 301px;
+}
+.last-photo-gradient{
+    background: linear-gradient(to right, #005FAC, #73727221);
+    height: 301px;
+}
 
-
-
+.last-photo-title{
+    padding: 60px 0 24px 60px;
+    font-size: 40px;
+    color: #fff;
+}
+.last-photo-btn{
+    margin-left: 60px;
+}
+/* last photo section end *
 
 /* foooter work start */
 footer{
     background-color: #151414;
+    margin-top: 100px;
 }
 
 .footer-container{
+    display: flex;
+    gap: 100px;
+    padding: 100px 200px;
+}
+
+.footerpart-one{
+    width: 50%;
+}
+
+.footerpart-one,  .footer-btn, .mailtext, .parttwo-title {
+    display: block;
     width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 130px 0;
 }
 
+.partone-title, .partone-discription, .partone-email, .partone-phone {
+    color: #fff;
+    padding-bottom: 24px;
+}
 .partone-title{
-    font-size: 45px;
-    color: white;
-}
-.partone-discription, .partone-phone, .partone-email {
-    color: white;
-    padding: 10px 0;
-}
-
-.footer-photo-content{
-    display: flex;
+    font-size: 40px;
 }
 
 .footer-photo{
     padding-right: 20px;
 }
 
-
 .parttwo-title{
-    font-size: 25px;
-    color: white;
-    padding-bottom: 10px;
+    color: #fff;
+    font: 20px;
+    padding-bottom: 30px;
 }
-
 .mailtext{
     padding: 24px;
     border-radius: 5px;
     background-color: transparent;
+    border: 1px solid #fff;
+}
 
-}
-.footer-btn{
-    color: white ;
-    background-color: #005FAC;
-}
+/* footer part end */
